@@ -1,8 +1,8 @@
-@Library('jenkins-shared-library')
+@Library('jenkins-shared-library') _
 
 properties([
     parameters([
-        string(name: 'appVersion' , defaultValue: '')
+        string(name: 'appVersion' , defaultValue: ''),
         string(name: 'deploy_to' , defaultValue: 'dev')
     ])
 ])
